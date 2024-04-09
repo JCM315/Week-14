@@ -1,0 +1,76 @@
+body {
+    font-family: sans-serif;
+}
+
+.movie {
+    border: 1px solid hsl(0, 0%, 0%);
+    padding: 1.25vw; 
+    margin-bottom: 1.25vw; 
+    display: flex;
+    align-items: center;
+}
+
+.movie img {
+    width: 12.5vw; 
+    margin-right: 1.25vw; 
+}
+
+.movie-details {
+    flex: 1;
+}
+
+.movie-title {
+    font-weight: bold;
+    margin-bottom: 0.625vw; 
+}
+
+.stars {
+    display: flex;
+}
+
+.star {
+    color: gold;
+    font-size: 1.25vw; 
+    cursor: pointer;
+    margin-right: 0.625vw; 
+}
+
+.star.selected {
+    color: orange;
+}
+
+.reviews {
+    margin-top: 1.25vw; 
+}
+
+.review {
+    border-bottom: 0.0625vw dotted #000000; 
+    padding-bottom: 0.3125vw; 
+    margin-bottom: 0.3125vw; 
+}
+
+.review-author {
+    font-weight: bold;
+}
+
+.review-text {
+    font-style: italic;
+}
+
+.review-form {
+    display: flex;
+    margin-top: 1.25vw; 
+}
+
+.review-form input {
+    flex: 1;
+    padding: 0.3125vw; 
+    border: 0.0625vw solid #000000;
+}
+
+.review-form button {
+    padding: 0.3125vw 0.625vw;
+    border: none;
+    background-color: hsl(71, 100%, 52%);
+    cursor: pointer;
+}
